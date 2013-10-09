@@ -1,0 +1,7 @@
+syntax: glob
+
+*.class
+*.bak
+build/*
+hotspot.log
+.DS_Store*
