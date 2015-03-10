@@ -88,7 +88,7 @@ function AskariLayout(name, chars) {
     }
 
     function flowLine(run) {
-        var source = new Source(name, run);
+        var source = Source.sourceFor(name, run);
         var tokens = getTokens(source);
         var position = 0;
 
